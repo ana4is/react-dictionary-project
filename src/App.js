@@ -5,10 +5,13 @@ function App() {
   return (
     <div className="App">
       <div className="container">
+        <h1>Dictionary</h1>
         <header className="App-header">
           <Dictionary />
         </header>
-        <footer>This was coded by Anaïs FLECHIER</footer>
+        <footer>
+          <small>This was coded by Anaïs FLECHIER</small>
+        </footer>
       </div>
     </div>
   );

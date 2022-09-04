@@ -8,7 +8,6 @@ export default function Dictionary() {
   let [results, setResults] = useState(null);
 
   function handleSubmit(response) {
-    console.log(response.data[0]);
     setResults(response.data[0]);
   }
   //Documentation : https://dictionaryapi.dev/
@@ -34,6 +33,9 @@ export default function Dictionary() {
             onChange={handleKeywordChange}
           />
         </form>
+        <p className="FormParagraph">
+          Suggested words: plane, table, sunset, yoga, world, ...
+        </p>
       </section>
       <Results results={results} />
     </div>
