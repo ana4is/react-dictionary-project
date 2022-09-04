@@ -1,6 +1,6 @@
-button {
-  text-align: center;
-  margin: 20px 15px;
+.App {
+  max-width: 960px;
+  margin: 0 auto;
 }
 .App h1 {
   text-align: center;
