@@ -10,7 +10,16 @@ function App() {
           <Dictionary />
         </header>
         <footer>
-          <small>This was coded by Anaïs FLECHIER</small>
+          <small>
+            Coded by{" "}
+            <a
+              href="https://github.com/ana4is/react-dictionary-project"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Anaïs FLECHIER
+            </a>
+          </small>
         </footer>
       </div>
     </div>
